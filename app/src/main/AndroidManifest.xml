@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinDeeplink.NoActionBar">
         <activity
+            android:name=".DeepLinkActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="ex84firebasestorage" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

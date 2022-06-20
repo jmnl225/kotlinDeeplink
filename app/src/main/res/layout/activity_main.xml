@@ -18,14 +18,14 @@
         />
 
     <Button
+        android:id="@+id/next_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="다음"
-        android:textStyle="bold"
         android:layout_alignParentBottom="true"
         android:layout_marginHorizontal="16dp"
         android:layout_marginBottom="20dp"
         android:paddingVertical="10dp"
-        />
+        android:text="다음"
+        android:textStyle="bold" />
 
 </RelativeLayout>
