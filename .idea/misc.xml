@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/kotlinDeeplink/app/src/main/res/layout/activity_deep_link.xml" value="0.34010416666666665" />
         <entry key="..\:/Android/kotlinDeeplink/app/src/main/res/layout/activity_main.xml" value="0.26876737720111216" />
         <entry key="..\:/Android/kotlinDeeplink/app/src/main/res/layout/activity_second.xml" value="0.2916666666666667" />
       </map>
